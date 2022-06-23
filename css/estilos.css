@@ -1,0 +1,327 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0px;
+    margin: px;
+}
+
+container-fluid {
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    
+}
+
+ul {
+    margin: 0px; 
+    padding: 0px;;
+}
+
+.textoDestacado {
+    margin: 5rem 0px 3rem;
+}
+
+.titulo {
+    font-size: 1.2rem;
+    
+}
+
+.saberMas {
+    font-size: 0.9rem;
+    font-weight: bold;
+    
+}
+
+blockquote {
+    margin: 2.5rem;
+}
+
+.tituloServicios {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 1rem 0px;
+}
+
+.seccion {
+  margin: 5rem auto;
+}
+.enlaceServicios {
+  font-weight: bold;
+  text-align: right;
+}
+
+strong {
+  color: #FFA54D;
+}
+
+.card-title {
+  font-weight: bold;
+  color: #FFA54D;
+}
+
+
+.logo {
+    color: #FFA54D;
+}
+  
+  /* .navbar1 {
+      box-shadow: 0 0 5px gray;
+      width: 100%;
+      background-color: white;
+      position: -webkit-sticky;
+      position: sticky ; 
+      top: 0px;
+      display: flex;
+      flex-direction: row;
+      
+      padding: 0px;
+  } */
+
+.hero {
+    background-image: url(/img/yoga-relajacion-playa.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-shadow: 0 0 20px black;
+    display: flex;
+    align-items: center;  
+}
+
+.imgPsicologia {
+  background-image: url(/img/psicologia/piedras-equilibrio.jpg);
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-shadow: 0 0 10px black;
+  display: flex;
+  align-items: center;
+  
+}
+
+.imgRakiram {
+  background-image: url(/img/rakiram/yoga-atardecer.jpg);
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-shadow: 0 0 20px black;
+  display: flex;
+  align-items: center;
+  
+}
+
+.imgMasoterapia {
+  background-image: url(/img/masoterapia/toallas-velas-masaje.jpg);
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-shadow: 0 0 20px black;
+  display: flex;
+  align-items: center;
+}
+
+.imgYoga {
+  background-image: url(/img/mujer-meditando.jpg);
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-shadow: 0 0 20px black;
+  display: flex;
+  align-items: center;
+}
+
+.sombra {
+  text-shadow: 0 0 20px black;
+}
+
+.titSize {
+  font-size: 6rem;
+}
+
+.divisor {
+    background-image: url(../img/Los-diferentes-tipos-de-Yoga.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    margin-top: 1rem;
+}
+
+form {
+    margin-top: 100px;
+}
+
+.formulario {
+    padding-top: 50px;
+}
+
+.carousel {
+    padding-top: 10px;
+}
+
+
+  /*//////////////// footer ////////////*/
+.site-footer {
+    background-color: #FFA54D;
+    padding: 0px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #050505;
+}
+.site-footer hr {
+    border-top-color: rgb(0, 0, 0);
+}
+.site-footer hr.small {
+    margin: 20px 0;
+  }
+  .site-footer h6 {
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    letter-spacing: 2px;
+  }
+  .site-footer a {
+    color: white;
+  }
+  .site-footer a:hover {
+    color: #3366cc;
+    text-decoration: none;
+  }
+  .footer-links {
+    padding-left: 0;
+    list-style: none;
+  }
+  .footer-links li {
+    display: block;
+  }
+  .footer-links a {
+    color: #000000;
+  }
+  .footer-links a:active,
+  .footer-links a:focus,
+  .footer-links a:hover {
+    color: #3366cc;
+    text-decoration: none;
+  }
+  .footer-links.inline li {
+    display: flex;
+  }
+  /* .site-footer .social-icons {
+    text-align: left;
+  } */
+  .site-footer .social-icons a {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 6px;
+    margin-right: 0;
+    border-radius: 100%;
+    background-color: #33353d;
+  }
+  .copyright-text {
+    margin: 0;
+  }
+  @media (max-width: 991px) {
+    .site-footer [class^='col-'] {
+      margin-bottom: 30px;
+    }
+  }
+  @media (max-width: 767px) {
+    .site-footer {
+      padding-bottom: 0;
+    }
+    .site-footer .copyright-text,
+    .site-footer .social-icons {
+      text-align: center;
+    }
+  }
+  .social-icons {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+  }
+  .social-icons li {
+    display: inline-block;
+    margin-bottom: 4px;
+  }
+  .social-icons li.title {
+    margin-right: 15px;
+    text-transform: uppercase;
+    color: #96a2b2;
+    font-weight: 700;
+    font-size: 13px;
+  }
+  .social-icons a {
+    background-color: #eceeef;
+    color: #818a91;
+    font-size: 16px;
+    display: inline-block;
+    line-height: 44px;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    margin-right: 8px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+  }
+
+
+  .social-icons a:active,
+  .social-icons a:focus,
+  .social-icons a:hover {
+    color: #fff;
+    background-color: #29aafe;
+  }
+  .social-icons.size-sm a {
+    line-height: 34px;
+    height: 34px;
+    width: 34px;
+    font-size: 14px;
+  }
+  .social-icons a.facebook:hover {
+    background-color: #3b5998;
+  }
+  .social-icons a.instagram:hover {
+    background-color: #eb5562;
+  }
+  
+  @media (max-width: 767px) {
+    .social-icons li.title {
+      display: block;
+      margin-right: 0;
+      font-weight: 600;
+    }
+  }
+  
+  .horarios h2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .yoga {
+    background-color: #FFA54D;
+  }
